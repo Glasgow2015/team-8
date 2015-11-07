@@ -17,6 +17,7 @@
     
     <!-- Custom CSS -->
     <link href="css/volunteer.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,23 +29,14 @@
 </head>
 
 <body>
-
+<div class="col-md-12">
     <!-- Navigation -->
   <div class="bs-example" data-example-id="nav-pills-with-dropdown">
     <ul class="nav nav-pills">
-      <li role="presentation" class="active"><a href="#">Home</a></li>
-      <li role="presentation" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-          Help <span class="caret"></span>
-        </a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li role="separator" class="divider"></li>
-          <li><a href="#">Separated link</a></li>
-        </ul>
-      </li>
+      <li role="presentation"><a href="index.html">Home</a></li>
+       <li role="presentation"><a href="#">About Us</a></li>
+      <li role="presentation"><a href="volunteer.html">Get Involved</a></li>
+       <li role="presentation"><a href="#">Events</a></li>
       <li role="presentation" class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
           Dropdown <span class="caret"></span>
@@ -66,9 +58,10 @@
         <!-- Introduction Row -->
         <div class="row">
             <div class="col-md-12">
-                <h1 class="page-header">Fancy Volunteering?
+                <h1 class="page-header">Get Involved
                 </h1>
-                <p>We have plenty of volunteering opportunities, within a range of subjects. Simply fill in the form below and we will be in touch.</p>
+                <p>There are plenty of ways to help us out, from being an event ambassador to simply holding a coffee morning.
+                		Simply fill in the form below and we will be in touch.</p>
             </div>
         </div>
 
@@ -119,7 +112,20 @@
               	 	<option>5-10 hrs</option>
               	 	<option>10+ hrs</option>
               	 </select>
-                <p class="help-block">Please provide </p>
+                <p class="help-block">Please select your availability</p>
+              </div>
+            </div>
+            
+             <div class="control-group">
+              <label class="control-label" for="areainterest">Your Area of Interest</label>
+              <div class="controls">
+              	 <select class="form-control input-lg" id="areainterest">
+              	 	<option></option>
+              	 	<option>Event Ambassador</option>
+              	 	<option>Fundraising</option>
+              	 	<option>Coffee Morning</option>
+              	 </select>
+                <p class="help-block">Please select your area of interest</p>
               </div>
             </div>
          
@@ -136,6 +142,7 @@
   </div>
 </div>
 
+
         <hr>
 
         <!-- Footer -->
@@ -151,6 +158,7 @@
 
     </div>
     <!-- /.container -->
+   </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
