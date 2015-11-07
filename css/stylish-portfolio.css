@@ -237,6 +237,7 @@ hr.small {
 /* Footer */
 
 footer {
+	text-align: center;
     padding: 100px 0;
 }
 
