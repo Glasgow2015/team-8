@@ -1,3 +1,17 @@
+Skip to content
+This repository  
+Pull requests
+Issues
+Gist
+ @morriscotty-sd
+ Unwatch 6
+  Star 0
+ Fork 0 Glasgow2015/team-8 PRIVATE
+ Branch: master  team-8/css/stylish-portfolio.css
+68ef109  5 hours ago
+@morriscotty-sd morriscotty-sd added support page and graph js
+1 contributor
+RawBlameHistory    250 lines (199 sloc)  3.77 KB
 /*!
  * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -17,9 +31,7 @@ body {
 }
 
 .text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+    background-image: url("../img/bg.jpg");
 }
 
 .jumbotron {
@@ -27,10 +39,10 @@ body {
 }
 
 .text-vertical-center h1 {
-    margin: 0;
     padding: 0;
     font-size: 4.5em;
-    font-weight: 700;
+    font-weight: 500;
+    color: #5C5C3D;
 }
 
 /* Custom Button Styles */
@@ -248,3 +260,12 @@ footer {
 .nav-side-bg{
 	background-color:white; 	
 }
+
+.nav>li>a:hover {
+    background-color: #eee;
+    color: #694489;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+Status API Training Shop Blog About Pricing
+© 2015 GitHub, Inc. Terms Privacy Security Contact Help

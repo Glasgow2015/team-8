@@ -3,15 +3,15 @@
   
 
 $(function () {
-    $('#container').highcharts({
+    $('#chartContainer2').highcharts({
         chart: {
             type: 'column'
         },
         title: {
-            text: 'Number of People who have died because of Prancreatic Cancer - 2013'
+            text: 'Number of Lives Lost From Prancreatic Cancer - 2013'
         },
         subtitle: {
-            text: 'text'
+            text: '(latest figures)'
         },
         xAxis: {
             type: 'category',
@@ -26,7 +26,7 @@ $(function () {
         yAxis: {
             min: 0,
             title: {
-                text: 'Number of people'
+                text: 'No. of people'
             }
         },
         legend: {
@@ -59,7 +59,7 @@ $(function () {
             dataLabels: {
                 enabled: true,
                 rotation: 0,
-                color: '#FFFFFF',
+                color: '#000',
                 align: 'right',
                 format: '{point.y:.1f}', // one decimal
                 y: 10, // 10 pixels down from the top

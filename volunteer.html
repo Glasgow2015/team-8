@@ -32,20 +32,19 @@
 <body>
 <div class="col-md-12">
  <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Pancreatic Cancer Scotland</h1>
-            <h3></h3>
-            <br>
-        </div>
+ <img class="img-responsive img-center" src="img/bg.jpg"></img>
+        
     </header>
     <!-- Navigation -->
   <div class="bs-example" data-example-id="nav-pills-with-dropdown">
     <ul class="nav nav-pills nav-justified">
       <li role="presentation"><a href="index2.html">Home</a></li>
-       <li role="presentation"><a href="#">About Us</a></li>
+       <li role="presentation"><a href="aboutus.html">About Us</a></li>
+       <li role="presentation"><a href="graphnew1.html">Stats</a></li>
       <li role="presentation"><a href="volunteer.html">Get Involved</a></li>
        <li role="presentation"><a href="events.html">Events</a></li>
-     	<li role="presentation"><a href="support.html">Support</a></li>
+      <li role="presentation"><a href="support.html">Support</a></li>
+      <li role="presentation"><a href="donation.html">Make a Donation</a></li>
     </ul>
   </div>
 
@@ -129,7 +128,7 @@
             <div class="control-group">
               <!-- Button -->
               <div class="controls">
-                <button class="btn btn-success">Register</button>
+                <button class="btn btn-success" id="btnReg">Register</button>
               </div>
             </div>
           </fieldset>
@@ -174,6 +173,13 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+$("#btnReg").click (function () {
+	alert("Successfully Registered");
+});
+</script>
+    
 
 </body>
 
