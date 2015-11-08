@@ -267,5 +267,12 @@ footer {
     border-bottom-color: black;
     border-bottom-style: solid;
 }
+
+.nav-pills>li.active>a {
+    background-color: transparent;
+    color: #694489;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
 Status API Training Shop Blog About Pricing
 © 2015 GitHub, Inc. Terms Privacy Security Contact Help

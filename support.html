@@ -43,7 +43,7 @@
 <li role="presentation"><a href="graphsnew1.html">Stats</a></li>
       <li role="presentation"><a href="volunteer.html">Get Involved</a></li>
        <li role="presentation"><a href="events.html">Events</a></li>
-      <li role="presentation"><a href="support.html">Support</a></li>
+      <li role="presentation" class="active"><a href="support.html">Support</a></li>
       <li role="presentation"><a href="donation.html">Make a Donation</a></li>
     </ul>
   </div>
@@ -118,7 +118,7 @@
             <div class="control-group">
               <!-- Button -->
               <div class="controls">
-                <button class="btn btn-success">Send</button>
+                <button class="btn btn-success" id="supSend">Send</button>
               </div>
             </div>
           </fieldset>
@@ -154,6 +154,11 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+$("#supSend").click (function () {
+	alert("Successfully Sent");
+});
+</script>
 
 </body>
 
