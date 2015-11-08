@@ -1,0 +1,95 @@
+
+
+<html>
+
+    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       
+		 <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-3d.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script type="text/javascript">
+
+  
+
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Number of People diagnosed by Prancreatic Cancer - 1989'
+        },
+        subtitle: {
+            text: 'text'
+        },
+        xAxis: {
+            type: 'category',
+            labels: {
+                rotation: 0,
+                style: {
+                    fontSize: '13px',
+                    fontFamily: 'Verdana, sans-serif'
+                }
+            }
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Population'
+            }
+        },
+        legend: {
+            enabled: true
+        },
+        tooltip: {
+            pointFormat: 'Population in 1989: <b>{point.y:.1f} </b>'
+        },
+        series: [{
+            name: 'Number of people',
+            data: [
+                ['Under 5', 0],
+                ['5-14', 0],
+				['15-24',1],
+                ['25-34', 0],
+                ['35-39', 3],
+                ['40-44', 8],
+				['45-49', 11],
+                ['50-54', 31],
+                ['55-59', 47],
+                ['60-64', 72],
+                ['65-69', 89],
+                ['70-74', 95],
+                ['75-79', 101],
+                ['80-84', 88],
+                ['85-89', 43],
+                ['90+', 16],
+                ['All ages', 606]
+            ],
+            dataLabels: {
+                enabled: true,
+                rotation: 0,
+                color: '#FFFFFF',
+                align: 'right',
+                format: '{point.y:.1f}', // one decimal
+                y: 10, // 10 pixels down from the top
+                style: {
+                    fontSize: '13px',
+                    fontFamily: 'Verdana, sans-serif'
+                }
+            }
+        }]
+    });
+});
+  
+
+        </script>
+		
+		</head>
+		<body>
+		
+		<div id="container" width="400px">
+		</div>
+  
+	 </body>
+</html>
